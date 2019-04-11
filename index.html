@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guitar Tuner: Web audio API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="circle">
+        <div class="strings e2">
+            <div  id="e2" class="pins" title="e2"></div>
+        </div>  
+        <div class="strings b">
+            <div id="b" class="pins" title="b"></div>
+        </div>
+        <div class="strings g">
+            <div id="g" class="pins" title="g"></div>
+        </div>
+        <div class="strings d">
+            <div id="d" class="pins" title="d"></div>
+        </div>
+        <div class="strings a">
+            <div id="a" class="pins" title="a"></div>
+        </div>
+        <div id="e4" class="strings e4">
+            <div class="pins" title="e4"></div>
+        </div>
+    </div>  
+    <h1>Guitar Tuner: Web audio API version 1</h1>
+    <script src="audioContext.js"></script>
+    <script src="test.js"></script> 
+    <!--Use (test.js) for dev ; Use app.js for prod-->
+</body>
+</html>
+
